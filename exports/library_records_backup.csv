@@ -1,0 +1,9 @@
+S.No.,Issue ID,Student Name,Student ID,Book Name,Book Number,Starting Date,Final Date,Return Date,Late Days,Fine Amount (INR),Status
+1,ISS-2026-1008,egtb,RTHTR,Clean Code: A Handbook of Agile Software Craftsmanship,BK-101,2026-11-25,2026-12-09,Not Returned,0,0,ISSUED
+2,ISS-2026-0999,Meera Krishnan,IT2024008,Design Patterns: Elements of Reusable OO Software,BK-107,2026-10-31,2026-11-10,2026-11-15,5,250,RETURNED
+3,ISS-2026-0998,Priya Nair,CS2024002,Computer Networking: A Top-Down Approach,BK-106,2026-10-31,2026-11-14,2026-11-13,0,0,RETURNED
+4,ISS-2026-1005,Vikram Patel,ME2024021,Effective Java (3rd Edition),BK-105,2026-11-24,2026-12-08,Not Returned,0,0,ISSUED
+5,ISS-2026-1004,Meera Krishnan,IT2024008,Database System Concepts,BK-104,2026-11-23,2026-12-07,Not Returned,0,0,ISSUED
+6,ISS-2026-1003,Priya Nair,CS2024002,Operating System Concepts,BK-103,2026-11-21,2026-12-05,Not Returned,0,0,ISSUED
+7,ISS-2026-1002,Rohan Kulkarni,EC2024014,Introduction to Algorithms (CLRS),BK-102,2026-11-09,2026-11-23,Not Returned,2,100,OVERDUE
+8,ISS-2026-1001,Aarav Sharma,CS2024001,Clean Code: A Handbook of Agile Software Craftsmanship,BK-101,2026-11-06,2026-11-20,Not Returned,5,250,OVERDUE

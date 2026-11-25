@@ -1,0 +1,114 @@
+:root {
+  --lms-navy: #0b1f3a;
+  --lms-blue: #1d4ed8;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.lms-navy {
+  color: var(--lms-navy);
+}
+
+.lms-sidebar {
+  width: 260px;
+  min-width: 260px;
+  background-color: var(--lms-navy);
+}
+
+.lms-nav-btn {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.65rem 0.9rem;
+  border-radius: 0.5rem;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.lms-nav-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.lms-nav-btn.active {
+  background-color: var(--lms-blue);
+  color: #ffffff;
+}
+
+.lms-stat-card {
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  padding: 1.25rem;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.lms-stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+.badge-returned {
+  background-color: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.badge-issued {
+  background-color: #ffedd5;
+  color: #c2410c;
+  border: 1px solid #fed7aa;
+}
+
+.badge-overdue {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.lms-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+  background: rgba(15, 23, 42, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.lms-modal-card {
+  width: 100%;
+  max-width: 540px;
+}
+
+@media (max-width: 991.98px) {
+  .lms-shell {
+    flex-direction: column;
+  }
+  .lms-sidebar {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  #receiptModal,
+  #receiptModal * {
+    visibility: visible !important;
+  }
+  #receiptModal {
+    position: fixed;
+    inset: 0;
+    background: #ffffff;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

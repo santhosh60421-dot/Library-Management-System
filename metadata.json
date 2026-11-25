@@ -1,0 +1,6 @@
+{
+  "name": "Library Management System",
+  "description": "Offline-capable Library Management System with SQLite persistence, automated overdue fine calculation, book & student management, and CSV export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
